@@ -71,7 +71,7 @@ public class employeeDetailsStervlet extends HttpServlet {
 
 private String jdbcURL = "jdbc:mysql://localhost:3306/employeedetails";
 private String jdbcUsername = "root";
-private String jdbcPassword = "tG001669";
+private String jdbcPassword = "password";
 //Step 2: Prepare list of SQL prepared statements to perform CRUD to our database
 private static final String INSERT_USERS_SQL = "INSERT INTO employeeDetails" + " (employee_name, employee_phone, employee_pay, salary_status) VALUES " +
 " (?, ?, ?);";
